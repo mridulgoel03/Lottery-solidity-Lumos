@@ -29,48 +29,51 @@ Now that the contract is deployed, let's see how to interact with it.
 Buying a Ticket
 To buy a ticket, follow these steps:
 
-Click on the "buyTicket" function in the "Deployed Contracts" section of the "Deploy & Run Transactions" tab.
+1. Click on the "buyTicket" function in the "Deployed Contracts" section of the "Deploy & Run Transactions" tab.
 
 Buy Ticket Function
 
-Enter "1" in the "Value" field and click on the "transact" button to buy a ticket.
+2. Enter "1" in the "Value" field and click on the "transact" button to buy a ticket.
 
 Buy Ticket Transact
 
-Metamask will pop up asking you to confirm the transaction. Click "Confirm" to proceed.
+3. Metamask will pop up asking you to confirm the transaction. Click "Confirm" to proceed.
 
 Metamask Confirm
 
-Your transaction will be processed and the "players" array in the contract will be updated with your address.
+4. Your transaction will be processed and the "players" array in the contract will be updated with your address.
 
-Selecting a Winner
+<h3>Selecting a Winner</h3>
+
+
 To select a winner, follow these steps:
 
-Click on the "selectWinner" function in the "Deployed Contracts" section of the "Deploy & Run Transactions" tab.
+1. Click on the "selectWinner" function in the "Deployed Contracts" section of the "Deploy & Run Transactions" tab.
 
 Select Winner Function
 
-Click on the "transact" button to select a winner.
+2. Click on the "transact" button to select a winner.
 
 Select Winner Transact
 
-Metamask will pop up asking you to confirm the transaction. Click "Confirm" to proceed.
+3. Metamask will pop up asking you to confirm the transaction. Click "Confirm" to proceed.
 
 Metamask Confirm
 
-The contract will randomly select a winner from the list of participants and transfer the entire contract balance to the winner.
+4. The contract will randomly select a winner from the list of participants and transfer the entire contract balance to the winner.
 
-Viewing the Participants
-To view the list of participants, follow these steps:
+<h3>Viewing the Participants</h3>
 
-Click on the "getPlayers" function in the "Deployed Contracts" section of the "Deploy & Run Transactions" tab.
+<h4>To view the list of participants, follow these steps:</h4>
+
+1. Click on the "getPlayers" function in the "Deployed Contracts" section of the "Deploy & Run Transactions" tab.
 
 Get Players Function
 
-Click on the "call" button to view the list of participants.
+2. Click on the "call" button to view the list of participants.
 
 Get Players Call
 
-The contract will display a list of the addresses of the participants.
+3. The contract will display a list of the addresses of the participants.
 
-Congratulations! You have successfully deployed and interacted with the Simple
+<h1 style="color:red">Congratulations! You have successfully deployed and interacted with the Simple</h1>
